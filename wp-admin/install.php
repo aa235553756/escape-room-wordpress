@@ -112,7 +112,7 @@ function display_setup_form( $error = null ) {
 	<table class="form-table" role="presentation">
 		<tr>
 			<th scope="row"><label for="weblog_title"><?php _e( 'Site Title' ); ?></label></th>
-			<td><input name="weblog_title" type="text" id="weblog_title" size="25" value="梅添涼" disabled/></td>
+			<td><input name="weblog_title" type="text" id="weblog_title" size="25" value="<?php echo esc_attr( $weblog_title ); ?>" /></td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="user_login"><?php _e( 'Username' ); ?></label></th>

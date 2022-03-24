@@ -3,12 +3,12 @@
   <section>
     <?php get_template_part('company'); ?>
   </section>
-  <section class="my-5 py-5 bg-light">
+  <section class="my-5 py-5 bg-light container">
     <div>
       <?php get_template_part('about'); ?>
     </div>
   </section>
-  <section class="mb-5">
+  <section class="mb-5 container">
     <?php get_template_part('assess'); ?>
   </section>
   <section class="bg-light">
