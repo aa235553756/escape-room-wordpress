@@ -6,7 +6,7 @@
     <div class="col-md-4">
       <div class="card bg-light border-0">
         <h5 class="card-title text-center">承接專案</h5>
-        <img src="wp-content/themes/nogoodstheme/assets/img/culture/project.jpg" class="card-img-top">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/culture/project.jpg" class="card-img-top">
         <div class="card-body">
           <p class="card-text">
             梅添涼提供優秀的技術團隊，絕對在專案時程內完成你的需求，絕對不用害怕價位太高，我們秉持著低廉實在的價格給予最好的服務與態度。
